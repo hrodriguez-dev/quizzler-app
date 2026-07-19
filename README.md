@@ -28,7 +28,8 @@ A desktop trivia quiz app built with Python and Tkinter. Questions are pulled li
 
 ```
 quizzler-app/
-├── main.py            # Entry point — sets up the GUI window
+├── main.py             # Entry point — sets up the GUI window
+├── ui.py               # GUI with Tkinter
 ├── quiz_brain.py       # Core quiz logic (scoring, question flow)
 ├── question_model.py   # Question class/data structure
 ├── data.py             # Handles the API request to Open Trivia DB
